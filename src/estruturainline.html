@@ -9,9 +9,35 @@
         alert("teste")
       }
 
+
+
+
     </script>
   </head>
   <body>
-    <input type="button" value="Testess" onclick="teste()">
+    <input type="button" value="Teste" onclick="teste()">
+
+      <p></p>
+
+      <p class="p2">
+
+      </p>
+
+      <p class="p3" id="p3">
+
+      </p>
+      <script>
+
+
+        document.getElementsByTagName("p")[o].innerHTML = "P";
+        document.getElementsByTagName("p2")[o].innerHTML = "P2";
+        document.getElementsByTagName("p3")[o].innerHTML = "P3";
+
+        document.getElementsByClassName("p3")[o].innerHTML = "P3";
+
+        document.getElementsByTagName("body")[o].style.background = "yellow"
+        document.getElementsByTagName("p2")[o].style.background = "red"
+        document.getElementsByTagName("p3")[o].style.background = "blue"
+    </script>
   </body>
 </html>
